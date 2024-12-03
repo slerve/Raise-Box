@@ -5,14 +5,14 @@ import datetime
 app = Flask(__name__)
 
 # M-Pesa API Credentials
-CONSUMER_KEY = 'your_consumer_key'
-CONSUMER_SECRET = 'your_consumer_secret'
-SHORTCODE = 'your_till_number'
-B2C_SHORTCODE = 'your_b2c_shortcode'
-SECURITY_CREDENTIAL = 'your_security_credential'
-TARGET_PHONE = '2547xxxxxxxx'  # Replace with target phone number
+CONSUMER_KEY = '7y0BiTBcCVoJRdg5bMUS5IF22SfiZGwbRQ3rDJav0DubIocC'
+CONSUMER_SECRET = 'UKGo8hUqk18U9P19TcGAQSeNbmjTAcucZQeTEA3lDG97iFoVjm5lMu4tGuXhKzkw'
+SHORTCODE = '3021236'
+B2C_SHORTCODE = '3021236'
+SECURITY_CREDENTIAL = 'WENo+SxNpGoh+EIajZIwycVCs8A/lyhJJCEv6/cs09UuuAI9Hw0iHgAqCcxyWYVxE+aivt4f3SJ2yN//5NZN9/sER3LjjqUi+zcjbbTTbn8CP3gOrIQMkNh3NfM0vPeg9YzmnLp/2kCf/cfJ1TFTT0pMc9OZcMTNLeo0TUeoG1vzBkieSz7c+TmSP3EQANnZE9cbfQEDS4iYv9jKpsrwoUDRtSa0lbif7m/qNfaQaf3hQ1d5zNef3LGgpY/dRiHpSc1Tjefr5UcRXfRb3gqMKIjX8M77v86RZyRpAMFs2XeMh905ddiPskgMGvaVLVMrYt+UvB2E0i3daQkBd5UFGA=='
+TARGET_PHONE = '254793052455'  # Replace with target phone number
 
-BASE_URL = 'https://sandbox.safaricom.co.ke'  # Use https://api.safaricom.co.ke for production
+BASE_URL = 'https://api.safaricom.co.ke'  # Use https://api.safaricom.co.ke for production
 
 
 def get_access_token():
