@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-U-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raise Box | Home</title>
-  <link rel="stylesheet" href="\Raise Box\static\css\style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raise Box | Donate</title>
+    <link rel="stylesheet" href="\Raise Box\static\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 
@@ -15,59 +14,31 @@
 
       <div>
           <ul id="navbar">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="\Raise-Box\index.html">Home</a></li>
+            <li><a href="\Raise-Box\projects.html">Projects</a></li>
+            <li><a href="\Raise-Box\about.html">About Us</a></li>
+            <li><a href="\Raise-Box\contact.html">Contact Us</a></li>
            
           </ul>
       </div>
     </section>
+<div class="container"> 
+<img src="\Raise Box\static\images\mpesa.png" alt="MPESA"> 
+<h2>Donate Funds</h2>
+    <form id="paymentForm">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="07XXXXXXXX" required><br><br>
 
-<!-- Hero Section -->
-    <section class="hero-section">
-        <h1><span>Lend a helping hand and help build the nation</span></h1>
-        <p><span>Find different projects to donate to and make a difference</span></p>
-        <a href="projects.html" class="btn">Projects</a>
-    </section>
+        <label for="amount">Amount (KES):</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter Amount" required><br><br>
 
-<!-- Projects Section -->
-    <section id="products" class="projects-section">
-        <h2>Our featured projects</h2>
-        <div class="projects-grid">
-            <div class="projects-card">
-                <img src="\Raise Box\static\images\projecta.png" alt="Project A">
-                <h3>Project A</h3>
-                <p>Need donation</p>
-                <a href="projecta.html" class="btn">View Project</a> 
-                <a href="donate.html" class="btn add-to-cart" data-product-id="1">Donate</a>
-            </div>
-            <div class="projects-card">
-                <img src="\Raise Box\static\images\projectb.png" alt="Project B">
-                <h3>Project B</h3>
-                <p>Need donation</p>
-                <a href="projectb.html" class="btn">View Project</a>
-                <a href="donate.html" class="btn add-to-cart" data-product-id="2">Donate</a>
-            </div>
-            <div class="projects-card">
-                <img src="\Raise Box\static\images\projectc.png" alt="Project C">
-                <h3>Project C</h3>
-                <p>Need donation</p>
-                <a href="projectc.html" class="btn">View Project</a>
-                <a href="donate.html" class="btn add-to-cart" data-product-id="3">Donate</a>
-            </div>
-            <div class="projects-card">
-                <img src="\Raise Box\static\images\projectd.png" alt="Project D">
-                <h3>Project D</h3>
-                <p>Need donation</p>
-                <a href="projectd.html" class="btn">View Project</a>
-                <a href="donate.html" class="btn add-to-cart" data-product-id="4">Donate</a>
-            </div>
-        </div>
-    </section>
+        <button class="btn" type="submit">Donate</button>
+    </form>
+        <div id="response"></div>
+</div>
+ <script src="\Raise Box\static\js\script.js"></script>
 
-
-    <!-- Footer -->
+<!-- Footer -->
     <footer>
         <p>&copy; 2024 Raise Box. All Rights Reserved.</p>
         <div class="social-links">
