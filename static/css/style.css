@@ -1,0 +1,326 @@
+h1{
+   font-size: 46px;
+   line-height: 54px;
+   color: white;
+}
+
+body{
+    width: 100%;
+}
+/*Header start */
+#header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1px 80px;
+      background: green;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+#navbar li{
+      list-style: none;
+      padding: 0 20px;
+}
+
+#navbar li a{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+      color: yellow;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('/Raise Box/static/images/black3.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-section h1 {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .btn {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn:hover {
+    background-color: grey;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+}
+
+.projects-card {
+    padding: 1.5rem;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projects-card h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.projects-card p {
+    font-size: 1.2rem;
+    color: green;
+}
+
+.projects-card .btn {
+    padding: 0.5rem 1.5rem;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects-card .btn:hover {
+   background-color: grey;
+}
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer .social-links a{
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: green;
+}
+
+
+/* Donation */
+.container {
+            max-width: 800px;
+            height: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            border-radius: 10px;
+}
+.container .btn{
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+.container .btn:hover{
+       background-color: grey;
+}
+
+/*Project */
+.project-page{
+            max-width: 800px;
+            height: auto;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            border-radius: 10px;
+}
+.project-page img{
+       width: 100%;
+       border-radius: 10px;
+}
+.project-page h1{
+       color: green;
+}
+.project-page .btn{
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+.project-page .btn:hover{
+      background-color: grey;
+}
+.project-page .progress-container{
+        width:100%;
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.project-page .progress-bar{
+            height: 20px;
+            width: 50%;
+            background-color: #4caf50;
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            border-radius: 10px;
+            transition: width o.5s;
+}
+
+/*About*/
+.about-page{
+            max-width: auto;
+            height: auto;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            border-radius: 10px;
+}
+.about-page h2{
+      color: green;
+}
+.about-page .btn{
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+.about-page .btn:hover{
+      background-color: grey;
+}
+
+
+/*contact us*/        
+.contact-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align:center;
+            color: green;
+}
+.contact-container form {
+            display: flex;
+            flex-direction: column;
+        }
+.contact-container label {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+.contact-container input, textarea, button {
+            margin-top: 5px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+.contact-container textarea {
+            resize: vertical;
+        }
+.contact-container button {
+            margin-top: 20px;
+            background-color: green;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+.contact-container button:hover {
+            background-color: grey;
+        }
+.contact-container .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+.contact-container .contact-info p {
+            margin: 5px 0;
+        }
+/*body*/
+.smart{
+ background-color: black;
+}
+
+
+
+       
